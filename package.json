@@ -1,0 +1,9 @@
+{
+  "name": "franken_php",
+  "version": "0.1.0",
+  "description": "A FrankenPHP app on Clever Cloud",
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "author": "davlgd"
+}
