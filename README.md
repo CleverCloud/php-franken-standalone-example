@@ -18,7 +18,7 @@ cd frankenphp-standalone-demo
 
 ## Create the application and deploy on Clever Cloud
 
-Here we use the Node.js runtime on Clever Cloud, as it doesn't include a default web server. `CC_PRE_RUN°HOOK` environment variable is used to download FrankenPHP binary (including Caddy). `package.json` is to start the application with FrankenPHP `php-server` command.
+Here we use the Node.js runtime on Clever Cloud, as it doesn't include a default web server. `CC_PRE_RUN_HOOK` environment variable is used to download FrankenPHP binary (including Caddy). `package.json` is to start the application with FrankenPHP `php-server` command.
 
 ```bash
 clever create -t node
